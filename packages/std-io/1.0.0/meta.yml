@@ -1,0 +1,8 @@
+name: std-io
+version: 1.0.0
+minAbi: 1
+maxAbi: 1
+checksum: ""
+changelog:
+  - type: add
+    message: Initial standard I/O helper package
