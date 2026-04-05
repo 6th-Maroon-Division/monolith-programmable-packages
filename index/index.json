@@ -1,0 +1,32 @@
+{
+  "packages": {
+    "bios-core": {
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "packages/bios-core/1.0.0/lib.lua",
+          "dependenciesPath": "packages/bios-core/1.0.0/dependencies.txt",
+          "metaPath": "packages/bios-core/1.0.0/meta.yml",
+          "libSha256": "ad2227baec34cb9adedd47da591a4875d5bd7367a011166314d80401008b06e3",
+          "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "metaSha256": "2e6d8abf5c7b3dc08b737cb2eeac79eee3cd0e0d37c148078d4a8eb262843bc4"
+        }
+      ]
+    },
+    "std-io": {
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "packages/std-io/1.0.0/lib.lua",
+          "dependenciesPath": "packages/std-io/1.0.0/dependencies.txt",
+          "metaPath": "packages/std-io/1.0.0/meta.yml",
+          "libSha256": "cc184a891eff26eb07c775a194dc0c618bdf54739e36e79b47bac819e4f0cc89",
+          "depsSha256": "d005f51bc80ddf6cb204e715bfb076084b7738d15712b4d4419b83b7477ada45",
+          "metaSha256": "35297a4343d3391829a0f6dab508a9d30d2b7db269c049dc5655e0c48458d784"
+        }
+      ]
+    }
+  }
+}

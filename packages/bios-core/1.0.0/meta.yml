@@ -1,0 +1,8 @@
+name: bios-core
+version: 1.0.0
+minAbi: 1
+maxAbi: 1
+checksum: ""
+changelog:
+  - type: add
+    message: Initial BIOS core package
