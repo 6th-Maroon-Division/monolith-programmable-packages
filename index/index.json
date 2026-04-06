@@ -17,7 +17,7 @@
       ]
     },
     "monolith-runtime": {
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "versions": [
         {
           "version": "1.0.0",
@@ -27,6 +27,17 @@
           "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
           "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
           "metaSha256": "16ef40a851ef51ad7b44de3dfcaf238099782636e107a43b7d2279b06994b21c",
+          "minAbi": 1,
+          "maxAbi": 1
+        },
+        {
+          "version": "1.0.1",
+          "path": "packages/monolith-runtime/1.0.1/lib.lua",
+          "dependenciesPath": "packages/monolith-runtime/1.0.1/dependencies.txt",
+          "metaPath": "packages/monolith-runtime/1.0.1/meta.yml",
+          "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
+          "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "metaSha256": "6658ba4f80d730b78e035f5976e9aa8fb5787b5dd108b0181eab85960a9e1478",
           "minAbi": 1,
           "maxAbi": 1
         }

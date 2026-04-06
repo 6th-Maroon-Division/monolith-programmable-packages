@@ -1,0 +1,8 @@
+name: monolith-runtime
+version: 1.0.1
+minAbi: 1
+maxAbi: 1
+checksum: ""
+changelog:
+  - type: add
+    message: Move bundled bin programs into package repo and include them in runtime package fetch.
