@@ -50,6 +50,21 @@ def semver_key(v: str):
     except ValueError:
         return (0, 0, 0)
 
+
+def collect_version_files(version_dir: Path):
+    files = []
+    for path in sorted(version_dir.rglob("*")):
+        if not path.is_file():
+            continue
+
+        relative = path.relative_to(version_dir).as_posix()
+        files.append({
+            "path": relative,
+            "sha256": sha256_file(path),
+        })
+
+    return files
+
 def main():
     root = Path("packages")
     index = {"packages": {}}
@@ -79,6 +94,7 @@ def main():
                 "libSha256": sha256_file(lib),
                 "depsSha256": sha256_file(deps),
                 "metaSha256": sha256_file(meta),
+                "files": collect_version_files(ver_dir),
             }
 
             if min_abi is not None:

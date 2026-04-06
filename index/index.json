@@ -11,6 +11,20 @@
           "libSha256": "ad2227baec34cb9adedd47da591a4875d5bd7367a011166314d80401008b06e3",
           "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
           "metaSha256": "2e6d8abf5c7b3dc08b737cb2eeac79eee3cd0e0d37c148078d4a8eb262843bc4",
+          "files": [
+            {
+              "path": "dependencies.txt",
+              "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            },
+            {
+              "path": "lib.lua",
+              "sha256": "ad2227baec34cb9adedd47da591a4875d5bd7367a011166314d80401008b06e3"
+            },
+            {
+              "path": "meta.yml",
+              "sha256": "2e6d8abf5c7b3dc08b737cb2eeac79eee3cd0e0d37c148078d4a8eb262843bc4"
+            }
+          ],
           "minAbi": 1,
           "maxAbi": 1
         }
@@ -27,6 +41,36 @@
           "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
           "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
           "metaSha256": "16ef40a851ef51ad7b44de3dfcaf238099782636e107a43b7d2279b06994b21c",
+          "files": [
+            {
+              "path": "api/keyboard.lua",
+              "sha256": "cc91c79fb7ed4dc9295d14b525d5782450bc4f74233e723d3785ee5980d7911c"
+            },
+            {
+              "path": "api/path.lua",
+              "sha256": "fbabf0583d2340b3c3eee9cb6e35eb7364a020b501e9edfdc32a25a0a6713c4a"
+            },
+            {
+              "path": "api/touch.lua",
+              "sha256": "aba1fbcdd5ab0cd96c108a17342f2f711ca0a2c69a797bf79f9443d6367f9285"
+            },
+            {
+              "path": "boot/init.lua",
+              "sha256": "37ec1582d19f88368fa2344bac3b87318ab284400c4c5a09e19bdefc920941ae"
+            },
+            {
+              "path": "dependencies.txt",
+              "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            },
+            {
+              "path": "lib.lua",
+              "sha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738"
+            },
+            {
+              "path": "meta.yml",
+              "sha256": "16ef40a851ef51ad7b44de3dfcaf238099782636e107a43b7d2279b06994b21c"
+            }
+          ],
           "minAbi": 1,
           "maxAbi": 1
         },
@@ -38,6 +82,44 @@
           "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
           "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
           "metaSha256": "6658ba4f80d730b78e035f5976e9aa8fb5787b5dd108b0181eab85960a9e1478",
+          "files": [
+            {
+              "path": "api/keyboard.lua",
+              "sha256": "cc91c79fb7ed4dc9295d14b525d5782450bc4f74233e723d3785ee5980d7911c"
+            },
+            {
+              "path": "api/path.lua",
+              "sha256": "fbabf0583d2340b3c3eee9cb6e35eb7364a020b501e9edfdc32a25a0a6713c4a"
+            },
+            {
+              "path": "api/touch.lua",
+              "sha256": "aba1fbcdd5ab0cd96c108a17342f2f711ca0a2c69a797bf79f9443d6367f9285"
+            },
+            {
+              "path": "bin/pumptest.lua",
+              "sha256": "74508c37c68d426d1bf7d4d9c36b6bc6d16db46c430402f9372301611b73b421"
+            },
+            {
+              "path": "bin/termdebug.lua",
+              "sha256": "92f437edc93e8051a2c3cbb3aa00b73550d9cd04ab4be3db5d5ba9f207fc7235"
+            },
+            {
+              "path": "boot/init.lua",
+              "sha256": "37ec1582d19f88368fa2344bac3b87318ab284400c4c5a09e19bdefc920941ae"
+            },
+            {
+              "path": "dependencies.txt",
+              "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            },
+            {
+              "path": "lib.lua",
+              "sha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738"
+            },
+            {
+              "path": "meta.yml",
+              "sha256": "6658ba4f80d730b78e035f5976e9aa8fb5787b5dd108b0181eab85960a9e1478"
+            }
+          ],
           "minAbi": 1,
           "maxAbi": 1
         },
@@ -49,6 +131,36 @@
           "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
           "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
           "metaSha256": "23b3b8d2f4fe232cf3cf05e2459790829dc017771e4d87312e2c6f51e50361f1",
+          "files": [
+            {
+              "path": "api/keyboard.lua",
+              "sha256": "cc91c79fb7ed4dc9295d14b525d5782450bc4f74233e723d3785ee5980d7911c"
+            },
+            {
+              "path": "api/path.lua",
+              "sha256": "fbabf0583d2340b3c3eee9cb6e35eb7364a020b501e9edfdc32a25a0a6713c4a"
+            },
+            {
+              "path": "api/touch.lua",
+              "sha256": "aba1fbcdd5ab0cd96c108a17342f2f711ca0a2c69a797bf79f9443d6367f9285"
+            },
+            {
+              "path": "boot/init.lua",
+              "sha256": "37ec1582d19f88368fa2344bac3b87318ab284400c4c5a09e19bdefc920941ae"
+            },
+            {
+              "path": "dependencies.txt",
+              "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            },
+            {
+              "path": "lib.lua",
+              "sha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738"
+            },
+            {
+              "path": "meta.yml",
+              "sha256": "23b3b8d2f4fe232cf3cf05e2459790829dc017771e4d87312e2c6f51e50361f1"
+            }
+          ],
           "minAbi": 1,
           "maxAbi": 1
         }
@@ -65,6 +177,24 @@
           "libSha256": "9fff0e4666656d19de06f3ca47b3862d266dc1746db5b7bc8910c50901e0b28e",
           "depsSha256": "d4ed03559ea135145bb5eb5b98e09975de800e0d866ea5b52c478c5b84958357",
           "metaSha256": "841974a3ad95fb67f9ea47aa6e3eaa6f3c21cda074d5ef44801500607786e9b2",
+          "files": [
+            {
+              "path": "bin/pumptest.lua",
+              "sha256": "74508c37c68d426d1bf7d4d9c36b6bc6d16db46c430402f9372301611b73b421"
+            },
+            {
+              "path": "dependencies.txt",
+              "sha256": "d4ed03559ea135145bb5eb5b98e09975de800e0d866ea5b52c478c5b84958357"
+            },
+            {
+              "path": "lib.lua",
+              "sha256": "9fff0e4666656d19de06f3ca47b3862d266dc1746db5b7bc8910c50901e0b28e"
+            },
+            {
+              "path": "meta.yml",
+              "sha256": "841974a3ad95fb67f9ea47aa6e3eaa6f3c21cda074d5ef44801500607786e9b2"
+            }
+          ],
           "minAbi": 1,
           "maxAbi": 1
         }
@@ -81,6 +211,24 @@
           "libSha256": "090b404664ddcf6a0ba5e2e7ddef1ea5d28aac84196e12cc4a3b804bbf06d0d7",
           "depsSha256": "d4ed03559ea135145bb5eb5b98e09975de800e0d866ea5b52c478c5b84958357",
           "metaSha256": "9457e9e26176a93620143b51963674e3af3d2a6a1008f07dd7b800ad985ccd4d",
+          "files": [
+            {
+              "path": "bin/termdebug.lua",
+              "sha256": "92f437edc93e8051a2c3cbb3aa00b73550d9cd04ab4be3db5d5ba9f207fc7235"
+            },
+            {
+              "path": "dependencies.txt",
+              "sha256": "d4ed03559ea135145bb5eb5b98e09975de800e0d866ea5b52c478c5b84958357"
+            },
+            {
+              "path": "lib.lua",
+              "sha256": "090b404664ddcf6a0ba5e2e7ddef1ea5d28aac84196e12cc4a3b804bbf06d0d7"
+            },
+            {
+              "path": "meta.yml",
+              "sha256": "9457e9e26176a93620143b51963674e3af3d2a6a1008f07dd7b800ad985ccd4d"
+            }
+          ],
           "minAbi": 1,
           "maxAbi": 1
         }
@@ -97,6 +245,20 @@
           "libSha256": "cc184a891eff26eb07c775a194dc0c618bdf54739e36e79b47bac819e4f0cc89",
           "depsSha256": "d005f51bc80ddf6cb204e715bfb076084b7738d15712b4d4419b83b7477ada45",
           "metaSha256": "35297a4343d3391829a0f6dab508a9d30d2b7db269c049dc5655e0c48458d784",
+          "files": [
+            {
+              "path": "dependencies.txt",
+              "sha256": "d005f51bc80ddf6cb204e715bfb076084b7738d15712b4d4419b83b7477ada45"
+            },
+            {
+              "path": "lib.lua",
+              "sha256": "cc184a891eff26eb07c775a194dc0c618bdf54739e36e79b47bac819e4f0cc89"
+            },
+            {
+              "path": "meta.yml",
+              "sha256": "35297a4343d3391829a0f6dab508a9d30d2b7db269c049dc5655e0c48458d784"
+            }
+          ],
           "minAbi": 1,
           "maxAbi": 1
         }
