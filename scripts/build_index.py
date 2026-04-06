@@ -3,6 +3,34 @@ import json
 import os
 from pathlib import Path
 
+
+def parse_meta_abi(meta_path: Path):
+    min_abi = None
+    max_abi = None
+
+    with meta_path.open("r", encoding="utf-8") as f:
+        for raw in f:
+            line = raw.strip()
+            if not line or line.startswith("#"):
+                continue
+
+            if line.startswith("minAbi:"):
+                value = line.split(":", 1)[1].strip().strip('"').strip("'")
+                try:
+                    min_abi = int(value)
+                except ValueError:
+                    min_abi = None
+                continue
+
+            if line.startswith("maxAbi:"):
+                value = line.split(":", 1)[1].strip().strip('"').strip("'")
+                try:
+                    max_abi = int(value)
+                except ValueError:
+                    max_abi = None
+
+    return min_abi, max_abi
+
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as f:
@@ -41,7 +69,9 @@ def main():
             meta = ver_dir / "meta.yml"
             if not (lib.exists() and deps.exists() and meta.exists()):
                 continue
-            versions.append({
+            min_abi, max_abi = parse_meta_abi(meta)
+
+            version_entry = {
                 "version": version,
                 "path": str(lib).replace("\\", "/"),
                 "dependenciesPath": str(deps).replace("\\", "/"),
@@ -49,7 +79,14 @@ def main():
                 "libSha256": sha256_file(lib),
                 "depsSha256": sha256_file(deps),
                 "metaSha256": sha256_file(meta),
-            })
+            }
+
+            if min_abi is not None:
+                version_entry["minAbi"] = min_abi
+            if max_abi is not None:
+                version_entry["maxAbi"] = max_abi
+
+            versions.append(version_entry)
 
         if not versions:
             continue

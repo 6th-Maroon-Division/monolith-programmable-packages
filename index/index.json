@@ -10,7 +10,9 @@
           "metaPath": "packages/bios-core/1.0.0/meta.yml",
           "libSha256": "ad2227baec34cb9adedd47da591a4875d5bd7367a011166314d80401008b06e3",
           "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-          "metaSha256": "2e6d8abf5c7b3dc08b737cb2eeac79eee3cd0e0d37c148078d4a8eb262843bc4"
+          "metaSha256": "2e6d8abf5c7b3dc08b737cb2eeac79eee3cd0e0d37c148078d4a8eb262843bc4",
+          "minAbi": 1,
+          "maxAbi": 1
         }
       ]
     },
@@ -24,7 +26,9 @@
           "metaPath": "packages/monolith-runtime/1.0.0/meta.yml",
           "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
           "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-          "metaSha256": "16ef40a851ef51ad7b44de3dfcaf238099782636e107a43b7d2279b06994b21c"
+          "metaSha256": "16ef40a851ef51ad7b44de3dfcaf238099782636e107a43b7d2279b06994b21c",
+          "minAbi": 1,
+          "maxAbi": 1
         }
       ]
     },
@@ -38,7 +42,9 @@
           "metaPath": "packages/std-io/1.0.0/meta.yml",
           "libSha256": "cc184a891eff26eb07c775a194dc0c618bdf54739e36e79b47bac819e4f0cc89",
           "depsSha256": "d005f51bc80ddf6cb204e715bfb076084b7738d15712b4d4419b83b7477ada45",
-          "metaSha256": "35297a4343d3391829a0f6dab508a9d30d2b7db269c049dc5655e0c48458d784"
+          "metaSha256": "35297a4343d3391829a0f6dab508a9d30d2b7db269c049dc5655e0c48458d784",
+          "minAbi": 1,
+          "maxAbi": 1
         }
       ]
     }
