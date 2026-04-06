@@ -1,0 +1,8 @@
+name: program-pumptest
+version: 1.0.0
+minAbi: 1
+maxAbi: 1
+checksum: ""
+changelog:
+  - type: add
+    message: Move pump test utility into its own optional program package.

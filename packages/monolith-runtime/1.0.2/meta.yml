@@ -1,0 +1,8 @@
+name: monolith-runtime
+version: 1.0.2
+minAbi: 1
+maxAbi: 1
+checksum: ""
+changelog:
+  - type: tweak
+    message: Keep core runtime package minimal by moving optional bin programs into standalone packages.

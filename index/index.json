@@ -17,7 +17,7 @@
       ]
     },
     "monolith-runtime": {
-      "latest": "1.0.1",
+      "latest": "1.0.2",
       "versions": [
         {
           "version": "1.0.0",
@@ -38,6 +38,49 @@
           "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
           "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
           "metaSha256": "6658ba4f80d730b78e035f5976e9aa8fb5787b5dd108b0181eab85960a9e1478",
+          "minAbi": 1,
+          "maxAbi": 1
+        },
+        {
+          "version": "1.0.2",
+          "path": "packages/monolith-runtime/1.0.2/lib.lua",
+          "dependenciesPath": "packages/monolith-runtime/1.0.2/dependencies.txt",
+          "metaPath": "packages/monolith-runtime/1.0.2/meta.yml",
+          "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
+          "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "metaSha256": "23b3b8d2f4fe232cf3cf05e2459790829dc017771e4d87312e2c6f51e50361f1",
+          "minAbi": 1,
+          "maxAbi": 1
+        }
+      ]
+    },
+    "program-pumptest": {
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "packages/program-pumptest/1.0.0/lib.lua",
+          "dependenciesPath": "packages/program-pumptest/1.0.0/dependencies.txt",
+          "metaPath": "packages/program-pumptest/1.0.0/meta.yml",
+          "libSha256": "9fff0e4666656d19de06f3ca47b3862d266dc1746db5b7bc8910c50901e0b28e",
+          "depsSha256": "d4ed03559ea135145bb5eb5b98e09975de800e0d866ea5b52c478c5b84958357",
+          "metaSha256": "841974a3ad95fb67f9ea47aa6e3eaa6f3c21cda074d5ef44801500607786e9b2",
+          "minAbi": 1,
+          "maxAbi": 1
+        }
+      ]
+    },
+    "program-termdebug": {
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "packages/program-termdebug/1.0.0/lib.lua",
+          "dependenciesPath": "packages/program-termdebug/1.0.0/dependencies.txt",
+          "metaPath": "packages/program-termdebug/1.0.0/meta.yml",
+          "libSha256": "090b404664ddcf6a0ba5e2e7ddef1ea5d28aac84196e12cc4a3b804bbf06d0d7",
+          "depsSha256": "d4ed03559ea135145bb5eb5b98e09975de800e0d866ea5b52c478c5b84958357",
+          "metaSha256": "9457e9e26176a93620143b51963674e3af3d2a6a1008f07dd7b800ad985ccd4d",
           "minAbi": 1,
           "maxAbi": 1
         }
