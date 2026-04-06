@@ -1,0 +1,8 @@
+name: monolith-runtime
+version: 1.0.0
+minAbi: 1
+maxAbi: 1
+checksum: ""
+changelog:
+  - type: add
+    message: Initial import of programmable computer runtime scripts from monolith content resources.

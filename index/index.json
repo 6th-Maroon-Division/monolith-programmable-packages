@@ -14,6 +14,20 @@
         }
       ]
     },
+    "monolith-runtime": {
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "path": "packages/monolith-runtime/1.0.0/lib.lua",
+          "dependenciesPath": "packages/monolith-runtime/1.0.0/dependencies.txt",
+          "metaPath": "packages/monolith-runtime/1.0.0/meta.yml",
+          "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
+          "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "metaSha256": "16ef40a851ef51ad7b44de3dfcaf238099782636e107a43b7d2279b06994b21c"
+        }
+      ]
+    },
     "std-io": {
       "latest": "1.0.0",
       "versions": [
