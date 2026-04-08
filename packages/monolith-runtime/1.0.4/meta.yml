@@ -1,0 +1,10 @@
+name: monolith-runtime
+version: 1.0.4
+minAbi: 1
+maxAbi: 1
+checksum: ""
+changelog:
+  - type: add
+    message: Add package search and package details output commands to BIOS CLI.
+  - type: tweak
+    message: Make package remove dependency-aware and only prune now-unused dependencies.

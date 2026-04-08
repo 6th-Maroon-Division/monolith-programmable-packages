@@ -31,7 +31,7 @@
       ]
     },
     "monolith-runtime": {
-      "latest": "1.0.3",
+      "latest": "1.0.4",
       "versions": [
         {
           "version": "1.0.0",
@@ -200,6 +200,47 @@
             {
               "path": "meta.yml",
               "sha256": "61c4613974bf37d5755fce2644c9528b40385a13688dad7c289448f868a72b21"
+            }
+          ],
+          "minAbi": 1,
+          "maxAbi": 1
+        },
+        {
+          "version": "1.0.4",
+          "path": "packages/monolith-runtime/1.0.4/lib.lua",
+          "dependenciesPath": "packages/monolith-runtime/1.0.4/dependencies.txt",
+          "metaPath": "packages/monolith-runtime/1.0.4/meta.yml",
+          "libSha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738",
+          "depsSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "metaSha256": "69194f2b0c3089575d314dbac762d57bb44320163d52aaa8c7b7a80c2fd89490",
+          "files": [
+            {
+              "path": "api/keyboard.lua",
+              "sha256": "cc91c79fb7ed4dc9295d14b525d5782450bc4f74233e723d3785ee5980d7911c"
+            },
+            {
+              "path": "api/path.lua",
+              "sha256": "fbabf0583d2340b3c3eee9cb6e35eb7364a020b501e9edfdc32a25a0a6713c4a"
+            },
+            {
+              "path": "api/touch.lua",
+              "sha256": "aba1fbcdd5ab0cd96c108a17342f2f711ca0a2c69a797bf79f9443d6367f9285"
+            },
+            {
+              "path": "boot/init.lua",
+              "sha256": "b042941b1046c97d17d83d4cf2aaf74294e6ad075863755e990c0d527226c39e"
+            },
+            {
+              "path": "dependencies.txt",
+              "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            },
+            {
+              "path": "lib.lua",
+              "sha256": "ded71582d67105d6862c4c52e5d9a875af48d798eafc85d9ba1ba43d1bb6b738"
+            },
+            {
+              "path": "meta.yml",
+              "sha256": "69194f2b0c3089575d314dbac762d57bb44320163d52aaa8c7b7a80c2fd89490"
             }
           ],
           "minAbi": 1,
